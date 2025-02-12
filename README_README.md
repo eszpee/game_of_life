@@ -16,10 +16,10 @@ This repository was created entirely by LLMs. The application was generated usin
 * "There's no counter at the bottom (or anywhere)"
 * "Try again"
 * "Still no counter displayed"
-* "Check my Game of Life window, there's no counter displayed"
+* "Check my Game of Life window, there's no counter displayed" *(Goose can have access to running apps' windows)*
 * "Everything works great! now, last task, make it look BEAUTIFUL, sleek, modern, colorful interface, everything. it should look like a well polished apple app."
 * "Check out how it looks now, and fix the problem"
-* "Uh oh, error message."
+* "Uh oh, error message.
 ``python game_of_life/game_of_life.py
 pygame 2.6.1 (SDL 2.28.4, Python 3.12.8)
 Hello from the pygame community. https://www.pygame.org/contribute.html
@@ -31,7 +31,7 @@ Traceback (most recent call last):
   File "/Users/eszpee/projects/goose/game_of_life/game_of_life.py", line 80, in draw_control_panel
     window.blit(iteration_text, (WIDTH - 250, WINDOW_SIZE + 70))
                                  ^^^^^
-NameError: name 'WIDTH' is not defin``
+NameError: name 'WIDTH' is not defin`` " *(yes, I accidentally left out the end of the error)*
 * "Improving, but the text is still too big for the buttons, check my screen"
 
 And that's it, after the last message Goose could figure out proper sizing. 
