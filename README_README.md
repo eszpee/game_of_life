@@ -20,6 +20,18 @@ This repository was created entirely by LLMs. The application was generated usin
 * "Everything works great! now, last task, make it look BEAUTIFUL, sleek, modern, colorful interface, everything. it should look like a well polished apple app."
 * "Check out how it looks now, and fix the problem"
 * "Uh oh, error message."
+``python game_of_life/game_of_life.py
+pygame 2.6.1 (SDL 2.28.4, Python 3.12.8)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+Traceback (most recent call last):
+  File "/Users/eszpee/projects/goose/game_of_life/game_of_life.py", line 161, in <module>
+    main()
+  File "/Users/eszpee/projects/goose/game_of_life/game_of_life.py", line 134, in main
+    draw_control_panel()
+  File "/Users/eszpee/projects/goose/game_of_life/game_of_life.py", line 80, in draw_control_panel
+    window.blit(iteration_text, (WIDTH - 250, WINDOW_SIZE + 70))
+                                 ^^^^^
+NameError: name 'WIDTH' is not defin``
 * "Improving, but the text is still too big for the buttons, check my screen"
 
 And that's it, after the last message Goose could figure out proper sizing. 
